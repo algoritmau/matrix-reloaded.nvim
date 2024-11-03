@@ -1,24 +1,24 @@
 ![banner](images/banner_img.png)
 
-# 🎄 The Matrix Theme
+# 🎄 The Matrix Reloaded Theme
 
-The Matrix Theme with full support for treesitter!
+The Matrix Reloaded Theme — with full support for treesitter!
 
 ## 🤔 Why?
 
-Because it's The Matrix!
+It's The Matrix, so the real question is *Why not?*
 
 ## ⚙️ Installation
 
 ```vim
-Plug 'luisiacc/thematrix'
+Plug 'algoritmau/thematrixreloaded'
 ...
-colorscheme thematrix
+colorscheme thematrixreloaded
 ```
 
 ## 🪛 Configuration
 
-> ❗️ configuration needs to be set **BEFORE** loading the color scheme with `colorscheme thematrix`
+> ❗️ Configuration needs to be set **BEFORE** loading the color scheme with `colorscheme thematrixreloaded`
 
 | Option               | Default     | Available options                                |
 | -------------------- | ----------- | ------------------------------------------------ |
@@ -80,14 +80,14 @@ let g:thematrix_telescope_theme = 1
 let g:thematrix_transparent_mode = 1
 
 " Load the colorscheme
-colorscheme thematrix
+colorscheme thematrixreloaded
 ```
 
 If you want access to the palette you have to do this:
 
 ```lua
-local colors = require("thematrix.colors").config()
-vim.g.thematrix_highlights = {Normal = {fg = colors.orange}}
+local colors = require("thematrixreloaded.colors").config()
+vim.g.thematrixreloaded_highlights = {Normal = {fg = colors.orange}}
 ```
 
 ## 🔌 Plugin support
